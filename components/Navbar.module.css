@@ -1,0 +1,77 @@
+
+/* WEB VERSION NAVBAR */
+
+.top{
+    display: flex;
+    justify-content: center;
+    background-color: #111111ee;
+    color: white;
+    font-size: 1.3vh;
+    font-weight: 100;
+    padding: 0.5vh;
+}
+
+
+.container
+{
+    background: rgba(91, 91, 91, 0.32);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    border-top: 1px solid rgba(91, 91, 91, 0.31);
+    transition: 0.5s ease-in-out;
+}
+
+.container:hover
+{
+    background-color: #111;
+}
+
+
+
+.navbar
+{
+    padding: 3vh;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo
+{
+    width: 15vh;
+    height: auto;
+    margin-right: 17vh;
+}
+
+.box_item,.options
+{
+    padding-top: 1.5vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vh;
+
+}
+
+.box_item
+{
+    list-style-type:none;
+
+}
+
+
+.item
+{
+    opacity: 60%;
+    font-weight: 100;
+    font-size: 1.5vh;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+.item:hover
+{
+    opacity: 100%;
+    font-weight: 300;
+}

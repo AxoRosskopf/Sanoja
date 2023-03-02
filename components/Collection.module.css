@@ -1,0 +1,48 @@
+.container
+{
+    background-color: #e6e6e6;
+    padding: 10vh 7vh;
+}
+
+.img
+{
+    width: 140vh;
+    height: 90vh;
+    object-fit: cover;
+
+}
+
+.box
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.box_text
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    gap: 3vh;
+    font-size: 10vh;
+    font-weight: 800;
+}
+
+.text{
+    -webkit-text-stroke: 1px #e6e6e6;
+    transition: 0.3s ease-in;
+
+} 
+
+.text:hover
+{
+    color: #e6e6e6;
+    font-style: italic;
+}
+
