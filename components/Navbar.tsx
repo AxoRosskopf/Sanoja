@@ -4,9 +4,14 @@ import logo from "../public/logo.svg";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
+// import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [showCollections, setCollections] = React.useState(true);
+
+  // const router = useRouter();
+  // console.log(router.pathname);
+
   return (
     <div className={styles.container}>
       <nav className={styles.navbar}>
